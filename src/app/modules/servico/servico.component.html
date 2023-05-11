@@ -1,0 +1,23 @@
+<div class="container">
+
+    <div class="row">
+
+        <div id="centralizarTitulo">
+
+            <div class="col-12">
+
+                <h5 id="subTitulo">{{subTitulo}}</h5>
+
+                <h2 id="titulo">{{titulo}}</h2>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <app-itens *ngFor="let item of data" [item]="item"></app-itens>
+
+
+</div>

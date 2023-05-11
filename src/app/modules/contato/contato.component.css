@@ -1,0 +1,35 @@
+.container {
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    top: 40px;
+    border-radius: 10px;
+}
+
+form mat-form-field.full-width {
+    width: 100%;
+}
+
+form mat-form-field .mat-form-field-infix {
+    margin-top: 4px;
+    border: 0;
+}
+
+form mat-label {
+    font-size: var(--font-size-medium);
+}
+
+.inicio {
+    margin-top: 25px;
+}
+
+::ng-deep .mat-form-field-appearance-outline .mat-form-field-infix {
+    padding: 0.5em 0 1em 0;
+}
+
+@media only screen and (min-width: 991px) {
+
+    form {
+        margin-left: 50px;
+    }
+
+}

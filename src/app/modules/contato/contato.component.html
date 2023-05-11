@@ -1,0 +1,84 @@
+<div id="background-degrade">
+
+    <div class="container">
+
+        <div class="row">
+
+            <div id="centralizarTitulo">
+
+                <div class="col-12 inicio">
+
+                    <h2 id="titulo">{{titulo}}</h2>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="risco-branco"></div>
+
+        <form [formGroup]="formContato">
+
+            <div class="row">
+
+                <div class="col-12 col-lg-6 col-lg-6">
+                    <mat-label>Nome</mat-label>
+                    <mat-form-field class="full-width" appearance="outline">
+                        <input matInput name="nome" type="text" formControlName="nome">
+                    </mat-form-field>
+                </div>
+
+            </div>
+
+            <div class="row">
+
+                <div class="col-12 col-lg-6">
+                    <mat-label>E-mail</mat-label>
+                    <mat-form-field class="full-width" appearance="outline">
+                        <input matInput name="email" email type="email" formControlName="email">
+                    </mat-form-field>
+                </div>
+
+            </div>
+
+            <div class="row">
+
+                <div class="col-12 col-lg-6">
+                    <mat-label>Telefone / WhatsApp</mat-label>
+                    <mat-form-field class="full-width" appearance="outline">
+                        <input matInput name="telefone" mask="(00) 00000-0000" formControlName="telefone">
+                    </mat-form-field>
+                </div>
+
+            </div>
+
+            <div class="row">
+
+                <div class="col-12 col-lg-6">
+                    <mat-label>Mensagem</mat-label>
+                    <mat-form-field class="full-width" appearance="outline">
+                        <textarea matInput formControlName="mensagem" name="mensagem"></textarea>
+                    </mat-form-field>
+                </div>
+
+            </div>
+
+            <div class="row mt-4">
+
+                <div class="col-12">
+
+                    <div class="mb-4">
+
+                        <button mat-raised-button color="primary" type="submit" (click)="enviar()">ENVIAR</button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </form>
+
+    </div>
+</div>

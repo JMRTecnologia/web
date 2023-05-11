@@ -1,1 +1,60 @@
-/* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.css";
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+@import "~@flaticon/flaticon-uicons/css/all/all";
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    padding-top: 60px;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+#centralizarTitulo {
+    text-align-last: center;
+}
+
+#titulo {
+    font-family: Arial, Helvetica, sans-serif
+}
+
+#subTitulo {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#background-degrade {
+    height: 42em;
+    background: rgb(5, 145, 213);
+    background: linear-gradient(137deg, rgba(5, 145, 213, 0.8099614845938375) 0%, rgba(24, 33, 69, 0.7931547619047619) 73%);
+}
+
+#background-cinza {
+    background-color: rgb(243, 243, 243);
+}
+
+.risco-azul {
+    width: 50px;
+    border-top: 3px solid #182145;
+}
+
+@media only screen and (max-width: 767px) {
+    body {
+        padding-top: 100px;
+    }
+
+}
+
+
+:root {
+
+    /* cores */
+    --color-branco: #fafafa;
+
+    /* fontes */
+    --font-size-medium: 16px;
+
+
+}

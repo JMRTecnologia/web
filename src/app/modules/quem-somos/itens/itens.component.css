@@ -1,0 +1,16 @@
+h6 {
+    font-weight: bold;
+}
+
+#texto {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.fi {
+    font-size: 22px;
+}
+
+.espacamento{
+    margin-right: 15px;
+    margin-bottom: 35px;
+}

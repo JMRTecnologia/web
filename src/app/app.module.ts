@@ -1,8 +1,19 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
-import { AppRoutingModule } from './app-routing.module';
+import { AppRoutingModule, routes } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { RouterModule } from '@angular/router';
+import { HttpClientInMemoryWebApiModule } from 'angular-in-memory-web-api';
+import { InMemoryDataMock } from './core/mocks/in-memory-data.mock';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { HttpClientModule } from '@angular/common/http';
+import { QuemSomosModule } from './modules/quem-somos/quem-somos.module';
+import { SobMedidaModule } from './modules/sob-medida/sob-medida.module';
+import { ContatoModule } from './modules/contato/contato.module';
+import { ServicoModule } from './modules/servico/servico.module';
+import { ClientesModule } from './modules/clientes/clientes.module';
+import { FooterModule } from './shared/components/footer/footer.module';
 
 @NgModule({
   declarations: [
@@ -10,7 +21,22 @@ import { AppComponent } from './app.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule,
+    HttpClientModule,
+    QuemSomosModule,
+    SobMedidaModule,
+    ContatoModule,
+    ServicoModule,
+    ClientesModule,
+    FooterModule,
+    RouterModule.forRoot(routes, {
+      scrollPositionRestoration: 'enabled',
+      anchorScrolling: 'enabled', scrollOffset: [0, 70]
+    }),
+    HttpClientInMemoryWebApiModule.forRoot(
+      InMemoryDataMock, { dataEncapsulation: false, delay: 0, passThruUnknownUrl: true },
+    )
   ],
   providers: [],
   bootstrap: [AppComponent]

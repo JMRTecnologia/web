@@ -1,3 +1,4 @@
+import { ViewportScroller } from '@angular/common';
 import { Component } from '@angular/core';
 
 @Component({
@@ -6,5 +7,37 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'jmr-technology-web';
+
+  constructor(private viewportScroller: ViewportScroller) { }
+
+  redesSociais: any
+
+  navbar = [
+    {
+      titulo: 'Quem Somos',
+      link: 'quem-somos'
+    },
+    // {
+    //   titulo: 'Sob Medida',
+    //   link: 'sob-medida'
+    // },
+    {
+      titulo: 'Serviços',
+      link: 'servico'
+    },
+    {
+      titulo: 'Clientes',
+      link: 'cliente'
+    },
+    {
+      titulo: 'Contato',
+      link: 'contato'
+    },
+  ]
+
+
+  ancora(id: string) {
+    this.viewportScroller.scrollToAnchor(id)
+  }
+
 }

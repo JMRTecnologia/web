@@ -1,0 +1,36 @@
+img {
+    width: 100%;
+    margin-top: 45px;
+    border-radius: 10px;
+}
+
+.subTitulo {
+    font-size: 16px;
+    letter-spacing: .2em;
+    color: #8f8f8f;
+    margin-bottom: 0rem;
+}
+
+.titulos {
+    margin-top: 25px;
+}
+
+.ml-20 {
+    margin-left: 20px;
+
+}
+
+.titulo {
+    font-size: 30px;
+    margin-bottom: 0rem;
+}
+
+.paragrafo {
+    line-height: 1.7;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.risco-azul {
+    margin-top: 10px;
+    margin-bottom: 25px;
+}

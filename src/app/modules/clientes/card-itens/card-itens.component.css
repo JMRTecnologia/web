@@ -1,0 +1,21 @@
+mat-card {
+    text-align: center;
+}
+
+#centralizar {
+    text-align: center;
+}
+
+img {
+    width: 225px;
+    height: 225px;
+}
+
+.imagem {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.card-sombra {
+    box-shadow: 4px 4px 14px -7px #182145;
+}

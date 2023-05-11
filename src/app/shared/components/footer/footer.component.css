@@ -1,0 +1,29 @@
+.pt-30 {
+    padding-top: 30px;
+}
+
+.col-md-1,
+.col-2 {
+    text-align-last: center;
+}
+
+.col-12 {
+    margin-top: 25px;
+    text-align: center;
+}
+
+.logo {
+    width: 200px;
+}
+
+.redesSociais {
+    padding: 10px;
+}
+
+.reserved {
+    font-family: Rubik;
+    font-size: var(--font-size-x-larger);
+    font-style: normal;
+    color: var(--color-footer-reserved);
+    margin-bottom: 35px;
+}
