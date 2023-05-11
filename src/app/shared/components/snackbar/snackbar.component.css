@@ -1,0 +1,23 @@
+.snackbar {
+    font-family: monospace;
+    padding: var(--space-xs) 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.snackbar .snackbar-text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.snackbar button {
+    margin-left: 22px;
+    border: none;
+    background-color: transparent;
+}
+
+.fi-rr-cross {
+    display: flex;
+}

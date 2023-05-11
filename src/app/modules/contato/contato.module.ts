@@ -8,6 +8,7 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { IConfig, NgxMaskModule } from 'ngx-mask';
 import { FormControlExceptionModule } from 'src/app/shared/directives/form-control-exception/form-control-exception.module';
+import { SnackbarComponentModule } from 'src/app/shared/components/snackbar/snackbar.component.module';
 
 const maskConfigFunction: () => Partial<IConfig> = () => {
   return {
@@ -28,6 +29,7 @@ const maskConfigFunction: () => Partial<IConfig> = () => {
     ReactiveFormsModule,
     MatButtonModule,
     FormControlExceptionModule,
+    SnackbarComponentModule,
     NgxMaskModule.forRoot(maskConfigFunction)
   ]
 })

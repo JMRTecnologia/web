@@ -49,6 +49,10 @@ a {
     #logo {
         width: 180px;
     }
+
+    .content {
+        margin-top: 0em;
+    }
     
 
 }

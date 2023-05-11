@@ -9,7 +9,6 @@ import { InMemoryDataMock } from './core/mocks/in-memory-data.mock';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HttpClientModule } from '@angular/common/http';
 import { QuemSomosModule } from './modules/quem-somos/quem-somos.module';
-import { SobMedidaModule } from './modules/sob-medida/sob-medida.module';
 import { ContatoModule } from './modules/contato/contato.module';
 import { ServicoModule } from './modules/servico/servico.module';
 import { ClientesModule } from './modules/clientes/clientes.module';
@@ -25,7 +24,6 @@ import { FooterModule } from './shared/components/footer/footer.module';
     BrowserAnimationsModule,
     HttpClientModule,
     QuemSomosModule,
-    SobMedidaModule,
     ContatoModule,
     ServicoModule,
     ClientesModule,

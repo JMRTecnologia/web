@@ -41,7 +41,6 @@ export class InMemoryDataMock implements InMemoryDbService {
             },
         ]
 
-
         const sob_medida = [
             {
                 titulo: 'LEVAMENTAMENTO',

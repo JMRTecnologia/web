@@ -17,18 +17,14 @@ export class AppComponent {
       titulo: 'Quem Somos',
       link: 'quem-somos'
     },
-    // {
-    //   titulo: 'Sob Medida',
-    //   link: 'sob-medida'
-    // },
     {
       titulo: 'Serviços',
       link: 'servico'
     },
-    {
-      titulo: 'Clientes',
-      link: 'cliente'
-    },
+    // {
+    //   titulo: 'Clientes',
+    //   link: 'cliente'
+    // },
     {
       titulo: 'Contato',
       link: 'contato'

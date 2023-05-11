@@ -47,6 +47,21 @@ body {
 
 }
 
+/* CONFIG SNACKS */
+.snack-erro {
+    /* background: #e92929; */
+    background: #b54545;
+    color: whitesmoke;
+    font-weight: bolder;
+    border-left: solid 3px #bbbbbb;
+}
+
+.snack-sucesso {
+    font-weight: bolder;
+    background: #368329;
+    color: whitesmoke;
+    border-left: solid 3px #bbbbbb;
+}
 
 :root {
 
