@@ -69,8 +69,8 @@ a {
     }
     
     .example-spacer {
-        position: absolute;
-        right: 25%;
+        align-self: center;
+        position: initial;
     }
 
 }
