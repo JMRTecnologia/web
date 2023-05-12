@@ -10,8 +10,6 @@ export class AppComponent {
 
   constructor(private viewportScroller: ViewportScroller) { }
 
-  redesSociais: any
-
   navbar = [
     {
       titulo: 'Quem Somos',

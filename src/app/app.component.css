@@ -17,8 +17,9 @@ a {
 }
 
 #logo {
-    width: 200px;
+    width: 80px;
     margin-right: 3em;
+    margin-left: 1em;
     /* margin-right: 100px; */
     /* margin-left: 25px; */
 }
@@ -40,6 +41,19 @@ a {
     margin-top: 2em;
 }
 
+.example-spacer {
+    position: absolute;
+    right: 0;
+}
+
+.example-spacer span {
+    margin-right: 15px;
+}
+
+.example-spacer span a {
+    margin-right: 15px;
+}
+
 @media only screen and (max-width: 767px) {
 
     .container-fluid {
@@ -47,12 +61,16 @@ a {
     }
 
     #logo {
-        width: 180px;
+        width: 70px;
     }
 
     .content {
         margin-top: 0em;
     }
     
+    .example-spacer {
+        position: absolute;
+        right: 25%;
+    }
 
 }
