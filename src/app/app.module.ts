@@ -30,7 +30,7 @@ import { FooterModule } from './shared/components/footer/footer.module';
     FooterModule,
     RouterModule.forRoot(routes, {
       scrollPositionRestoration: 'enabled',
-      anchorScrolling: 'enabled', scrollOffset: [0, 70]
+      anchorScrolling: 'enabled', scrollOffset: [0, 80]
     }),
     HttpClientInMemoryWebApiModule.forRoot(
       InMemoryDataMock, { dataEncapsulation: false, delay: 0, passThruUnknownUrl: true },
