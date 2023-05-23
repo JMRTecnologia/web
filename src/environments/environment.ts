@@ -3,10 +3,12 @@
 // The list of file replacements can be found in `angular.json`.
 
 const apiUrl = 'api/';
+const emailUrl = ''//'https://formspree.io/f/xvonqoen';
 
 export const environment = {
   production: false,
-  apiUrl: apiUrl
+  apiUrl: apiUrl,
+  emailUrl: emailUrl
 };
 
 /*

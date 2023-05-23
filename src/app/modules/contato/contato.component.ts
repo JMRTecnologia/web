@@ -33,6 +33,7 @@ export class ContatoComponent implements OnInit {
       this.formContato.controls['dataEnvio'].setValue(new Date());
 
       if (this.podeEnviarNovamente()) {
+        this.enviarEmail();
         this.msg.showSnackSuccess("Entraremos em contato, aguarde!");
       } else {
         this.msg.showSnackErro("Você enviou um e-mail anteriormente, aguarde!");
@@ -55,9 +56,12 @@ export class ContatoComponent implements OnInit {
     else {
       return false;
     }
-    // else (emailSalvo == this.formContato.value.email && subtrairDatas(dataSalvo) < 6) {
-    //   return false;
-    // }
+
+  }
+
+  enviarEmail() {
+
+
 
   }
 
