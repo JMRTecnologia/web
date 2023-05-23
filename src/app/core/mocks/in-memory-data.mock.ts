@@ -12,12 +12,12 @@ export class InMemoryDataMock implements InMemoryDbService {
             {
                 titulo: 'SIMPLES',
                 texto: 'No primeiro contato, descreva brevemente seu projeto. Faremos uma análise e enviaremos nossa proposta.',
-                icon: 'fi fi-rr-edit'
+                icon: 'fi fi-rr-calendar-lines-pen'
             },
             {
                 titulo: 'ÁGIL',
                 texto: 'Criamos o seu sistema de acordo com a descrição do projeto, de forma rápida e com resultados visíveis em pouco tempo de trabalho.',
-                icon: 'fi fi-rr-time-quarter-past'
+                icon: 'fi fi-rr-time-fast'
             },
             {
                 titulo: 'SEM DESEMBOLSO',
