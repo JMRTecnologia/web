@@ -45,6 +45,12 @@ body {
         padding-top: 100px;
     }
 
+    #background-degrade {
+        height: 42em;
+        background: rgb(5, 145, 213);
+        background: linear-gradient(137deg, rgba(5, 145, 213, 0.8099614845938375) 0%, rgba(24, 33, 69, 0.7931547619047619) 73%);
+    }
+
 }
 
 /* CONFIG SNACKS */
